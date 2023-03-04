@@ -1,3 +1,5 @@
+// It will work only when two same pair of value available example: [{4,4,5,7,7} it will work] but [{4,4,4,5,7,7,7} it will not work].
+
 #include <iostream>
 using namespace std;
 int main() {
