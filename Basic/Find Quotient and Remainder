@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int devidend,divisor,reminder,quotient;
+    cout<<"Enter number and diviser "<<endl;
+    cin>>devidend>>divisor;
+    reminder=devidend%divisor;
+    quotient=devidend/divisor;
+    cout<<devidend<<" "<<divisor<<" "<<reminder<<" "<<quotient;
+    return 0;
+}
