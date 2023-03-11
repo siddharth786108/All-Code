@@ -1,0 +1,33 @@
+// Basic Approch.  
+
+#include <iostream>
+using namespace std;
+int main() {
+   int n=5,temp1=0,temp2=0,temp3=0,temp4=0;
+   int a[5]={1,2,3,4,3};
+   for (int i=0;i<n;i++)
+   {
+       if(a[i]==1)
+       {
+           temp1=temp1+1;
+       }
+        if(a[i]==2)
+       {
+           temp2=temp2+1;
+       }
+        if(a[i]==3)
+       {
+           temp3=temp3+1;
+       }
+        if(a[i]==4)
+       {
+           temp4=temp4+1;
+       }
+   }
+   cout<<"1 came "<<temp1<<endl;
+   cout<<"2 came "<<temp2<<endl;
+   cout<<"3 came "<<temp3<<endl;
+   cout<<"4 came "<<temp4<<endl;
+    
+    return 0;
+}
