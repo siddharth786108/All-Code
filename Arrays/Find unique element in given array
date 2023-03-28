@@ -13,3 +13,33 @@ int main() {
     
     return 0;
 }
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>  2nd Method >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+IT WILL WORK FOR ALL...................
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n=5;
+    int array[n]={4,1,2,1,2};
+    for(int i=0;i<n;i++)
+    {
+        int count=0;
+        for(int j=0;j<n;j++)
+        {
+            if(array[i]==array[j])
+            {
+                count++;
+            }
+        }
+        if(count<2)
+        {
+            cout<<array[i];
+        }
+    }
+}
+
+*/
