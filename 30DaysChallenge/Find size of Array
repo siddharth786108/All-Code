@@ -1,9 +1,0 @@
-#include<iostream>
-using namespace std;
-int main(void)
-{
-    int a[]={1,2,3,6,7,9};
-    int n=sizeof(a)/sizeof(int);
-    cout<<"Size of Array "<<n;
-    return 0;
-}
