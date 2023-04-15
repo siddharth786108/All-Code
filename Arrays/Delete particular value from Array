@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n=6,value,position;
+    int array[n]={6,5,4,3,2,1};
+    cout<<"Enter value to delete ";
+    cin>>value;
+    for(int i=0;i<n;i++)
+    {
+        if(array[i]==value)
+        {
+            position=i;
+        }
+    }
+    for(int i=position;i<n-1;i++)
+    {
+        array[i]=array[i+1];
+    }
+    n=n-1;
+    for(int i=0;i<n;i++)
+    {
+        cout<<array[i]<<" ";
+    }
+    return 0;
+}
