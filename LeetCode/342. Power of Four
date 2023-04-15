@@ -17,15 +17,28 @@ Example 3:
 Input: n = 1
 Output: true
 
+Constraints:
+
+-231 <= n <= 231 - 1
+
 */
 
 class Solution {
 public:
-    bool isPowerOfFour(int num) {
-        while(num > 1) {
-            if(num % 4)return false;
-            num /= 4;
+    bool isPowerOfFour(int n) {
+        long int number=4;
+        for(int i=2;i<=30;i++)
+        {
+            number=number*4;
+            if(n==number)
+            {
+                return true;
+            }
         }
-        return num == 1;
+        if(n==4 || n==1)
+        {
+            return true;
+        }
+    return false;
     }
 };
