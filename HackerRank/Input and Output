@@ -1,0 +1,42 @@
+/*
+
+Task
+Read  numbers from stdin and print their sum to stdout.
+
+Input Format
+
+One line that contains  space-separated integers: , , and .
+
+Constraints
+
+Output Format
+
+Print the sum of the three numbers on a single line.
+
+Sample Input
+
+1 2 7
+Sample Output
+
+10
+Explanation
+
+The sum of the three numbers is 1+2+7=10.
+
+*/
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int a,b,c;
+    cin>>a>>b>>c;
+    int d=a+b+c;
+    cout<<d;   
+    return 0;
+}
