@@ -1,0 +1,40 @@
+/*
+Output Format
+
+Print the integers in the sorted order one by one in a single line followed by a space.
+
+Sample Input
+
+5
+1 6 10 8 4
+Sample Output
+
+1 4 6 8 10
+
+*/
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    vector<int> a;
+    int n,value;
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        cin>>value;
+        a.push_back(value);
+    }   
+    sort(a.begin(), a.end());
+    for(int i=0;i<n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
+    return 0;
+}
