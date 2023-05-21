@@ -1,6 +1,17 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        int size=nums.size();
+        return (nums[size-1]-1)*(nums[size-2]-1);
+    }
+};
+
+/*
+
+class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
         int max=INT_MIN,max1=INT_MIN;
         sort(nums.begin(),nums.end());
         for(int i=0;i<nums.size();i++)
@@ -25,7 +36,6 @@ public:
 };
 
 
-/*
 
 Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).
  
