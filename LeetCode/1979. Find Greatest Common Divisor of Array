@@ -1,6 +1,31 @@
 class Solution {
 public:
     int findGCD(vector<int>& nums) {
+        int largest=INT_MIN, smallest=INT_MAX, greatest_common_divisor=INT_MIN;
+        for(int i=0;i<nums.size();i++)
+        {
+            largest=max(largest,nums[i]);
+            smallest=min(smallest,nums[i]);
+        }
+        for(int i=1;i<=largest;i++)
+        {
+            if(smallest%i==0 && largest%i==0)
+            {
+                if(i>greatest_common_divisor)
+                {
+                    greatest_common_divisor=i;
+                }
+            }
+        }
+    return greatest_common_divisor;
+    }
+};
+
+/*
+
+class Solution {
+public:
+    int findGCD(vector<int>& nums) {
         int maxi=INT_MIN,mini=INT_MAX;
         vector<int>array;
         for(int i=0;i<nums.size();i++)
@@ -27,6 +52,8 @@ public:
     return mini;
     }
 };
+
+*/
 
 /*  >>>>>>>>>>>>>>>>>>>>>>>>>>>@@@@@@@@@@@@@@@@@@@@@@@@@
 
