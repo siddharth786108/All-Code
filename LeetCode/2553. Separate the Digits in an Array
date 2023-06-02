@@ -38,7 +38,7 @@ public:
                 arr1.push_back(n);
                 nums[i]=nums[i]/10;
             }
-        }reverse(arr1.begin(),arr1.end());
+        }reverse(arr1.begin(),arr1.end()); 
     return arr1;
     }
 };
