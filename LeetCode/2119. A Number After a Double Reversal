@@ -23,23 +23,38 @@ Explanation: Reverse num to get 0, then reverse 0 to get 0, which equals num.
 
 */
 
-
 class Solution {
 public:
     bool isSameAfterReversals(int num) {
-        int sum1=0,sum2=0,digit,temp=0,reverse=num;
+        if(num==0)
+        {
+            return true;
+        }
+        else if(num%10==0)
+        {
+            return false;
+        }
+    return true;
+    }
+};
+
+
+/*
+class Solution {
+public:
+    bool isSameAfterReversals(int num) {
+        int sum1=0,sum2=0,digit,reverse=num;
         while(num!=0)
         {
             digit=num%10;
             sum1=(sum1*10)+digit;
             num=num/10;
         }
-        temp=sum1;
-        while(temp!=0)
+        while(sum1!=0)
         {
-            digit=temp%10;
+            digit=sum1%10;
             sum2=(sum2*10)+digit;
-            temp=temp/10;
+            sum1=sum1/10;
         }
         if(reverse==sum2)
         {
@@ -48,3 +63,4 @@ public:
     return false;
     }
 };
+*/
