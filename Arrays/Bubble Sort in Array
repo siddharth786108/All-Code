@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int n=6;
     int array[n]={10,1,7,6,14,9};
-    for(int i=0;i<n-1;i++)      // i<n-1 because array will sort before n.
+    for(int i=0;i<n-1;i++)      // i<n-1 because array will sort before n. 
     {
         for(int j=0;j<n-i-1;j++)     // j<n-i-1 because j will descrease in all round it will run befor sorted element.
         {
