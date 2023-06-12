@@ -29,7 +29,7 @@ public:
         for(int i=remove;i<n-remove;i++)
         {
             sum=sum+arr[i];
-            count=count+1;
+            count=count+1; 
         }
         double a=sum/count;
     return a;
