@@ -29,11 +29,11 @@ Constraints:
 class Solution {
 public:
     bool isPowerOfThree(int n) {
-        long int power_of=3;
-        for(int i=2;i<=30;i++) // till 30 due to Constraints.
+        long int ans=3;
+        for(int i=1;i<=30;i++) // till 30 due to Constraints.
         {
-            power_of=power_of * 3;   
-            if(power_of == n)
+            ans =ans * 3;   
+            if(ans == n)
             {
                 return true;
             }
