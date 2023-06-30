@@ -7,7 +7,7 @@ Given an integer n, return true if n is an ugly number.
 Example 1:
 
 Input: n = 6
-Output: true
+Output: true 
 Explanation: 6 = 2 × 3
 Example 2: 
 
