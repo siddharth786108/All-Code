@@ -7,7 +7,7 @@ Answers within 10-5 of the actual answer will be considered accepted.
 Example 1:
 
 Input: arr = [1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3]
-Output: 2.00000
+Output: 2.00000 
 Explanation: After erasing the minimum and the maximum values of this array, all elements are equal to 2, so the mean is 2.
 Example 2:
 
