@@ -1,6 +1,6 @@
 /*
 
-You are given an integer array nums with the following properties:
+You are given an integer array nums with the following properties: 
 
 nums.length == 2 * n.
 nums contains n + 1 unique elements.
