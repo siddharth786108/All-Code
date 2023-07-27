@@ -4,7 +4,7 @@ Given two integer arrays nums1 and nums2, sorted in non-decreasing order, return
 
 Note that an integer is said to be common to nums1 and nums2 if both arrays have at least one occurrence of that integer. 
  
-Example 1:
+Example 1: 
 
 Input: nums1 = [1,2,3], nums2 = [2,4]
 Output: 2
