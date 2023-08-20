@@ -5,7 +5,7 @@ Given a non-negative integer num, return true if num can be expressed as the sum
 Example 1:
 
 Input: num = 443 
-Output: true 
+Output: true  
 Explanation: 172 + 271 = 443 so we return true.
 Example 2:  
 
