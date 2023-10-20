@@ -9,7 +9,7 @@ If middleIndex == 0, the left side sum is considered to be 0. Similarly, if midd
 Return the leftmost middleIndex that satisfies the condition, or -1 if there is no such index. 
   
 Example 1:  
-  
+   
 Input: nums = [2,3,-1,8,4]  
 Output: 3 
 Explanation: The sum of the numbers before index 3 is: 2 + 3 + -1 = 4 
