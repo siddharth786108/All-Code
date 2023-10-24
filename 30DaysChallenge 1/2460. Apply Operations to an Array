@@ -11,7 +11,7 @@ For example, the array [1,0,2,0,0,1] after shifting all its 0's to the end, is [
 Return the resulting array. 
 
 Note that the operations are applied sequentially, not all at once.
-
+ 
 Example 1:
 
 Input: nums = [1,2,2,1,1,0]
