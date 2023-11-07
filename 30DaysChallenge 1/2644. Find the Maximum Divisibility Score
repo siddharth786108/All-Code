@@ -6,7 +6,7 @@ The divisibility score of divisors[i] is the number of indices j such that nums[
 
 Return the integer divisors[i] with the maximum divisibility score. If there is more than one integer with the maximum score, return the minimum of them. 
  
-Example 1: 
+Example 1:  
 
 Input: nums = [4,7,9,3,9], divisors = [5,2,3]  
 Output: 3
