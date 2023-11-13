@@ -8,7 +8,7 @@ Return the integer divisors[i] with the maximum divisibility score. If there is 
  
 Example 1:  
 
-Input: nums = [4,7,9,3,9], divisors = [5,2,3]  
+Input: nums = [4,7,9,3,9], divisors = [5,2,3]   
 Output: 3
 Explanation: The divisibility score for every element in divisors is:
 The divisibility score of divisors[0] is 0 since no number in nums is divisible by 5.
